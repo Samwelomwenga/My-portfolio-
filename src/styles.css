@@ -12,3 +12,9 @@ section{
 .skills-svg{
     @apply p-3 rounded-xl shadow-2xl;
 }
+.input-field{
+    @apply border-2 border-solid border-neutral-dark-green w-full rounded-md ;
+}
+.field-label{
+    @apply text-neutral-dark-green;
+}
