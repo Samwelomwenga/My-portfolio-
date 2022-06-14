@@ -18,3 +18,9 @@ section{
 .field-label{
     @apply text-neutral-dark-green;
 }
+.project-card{
+    @apply rounded-xl shadow-2xl mb-4 ;
+}
+.project-card img{
+    @apply p-8;
+}
