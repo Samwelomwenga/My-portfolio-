@@ -24,3 +24,6 @@ section{
 .project-card img{
     @apply p-8;
 }
+.social-svg{
+    @apply w-8 h-8;
+}
