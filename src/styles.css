@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1,h2,h3,h4{
-@apply text-primary-light-green text-xl font-bold mb-8;
+@apply text-primary-light-green text-xl font-bold md:font-semibold mb-8 md:text-3xl;
 
 }
 section{
