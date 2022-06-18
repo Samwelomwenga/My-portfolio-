@@ -19,3 +19,6 @@ scrollUp.addEventListener("click", ()=>{
         behavior: "smooth",
     });
 });
+const navigattionHeight=document.querySelector("nav").offsetHeight;
+console.log(navigattionHeight);
+document.documentElement.style.setProperty("",navigattionHeight+"px");
