@@ -548,11 +548,6 @@ video {
   z-index: 10;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -669,23 +664,33 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-primary-dark-green {
-  --tw-bg-opacity: 1;
-  background-color: hsl(185 96% 19% / var(--tw-bg-opacity));
-}
-
 .bg-neutral-white {
   --tw-bg-opacity: 1;
   background-color: hsl(160 5% 78% / var(--tw-bg-opacity));
+}
+
+.bg-primary-dark-green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(185 96% 19% / var(--tw-bg-opacity));
 }
 
 .p-6 {
   padding: 1.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-6 {
@@ -701,21 +706,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
 }
 
 .pb-6 {
@@ -775,21 +765,6 @@ video {
   color: hsl(185 96% 19% / var(--tw-text-opacity));
 }
 
-.text-primary-light-green {
-  --tw-text-opacity: 1;
-  color: hsl(145 62% 42% / var(--tw-text-opacity));
-}
-
-.text-neutral-light-blue {
-  --tw-text-opacity: 1;
-  color: hsl(217 92% 42% / var(--tw-text-opacity));
-}
-
-.text-neutral-white {
-  --tw-text-opacity: 1;
-  color: hsl(160 5% 78% / var(--tw-text-opacity));
-}
-
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -798,6 +773,7 @@ video {
 
 h1, h2, h3, h4 {
   margin-bottom: 2rem;
+  scroll-margin-top: 5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -871,10 +847,6 @@ section {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:mr-32 {
-    margin-right: 8rem;
   }
 
   .md\:flex {
