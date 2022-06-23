@@ -544,10 +544,6 @@ video {
   right: 1rem;
 }
 
-.right-3 {
-  right: 0.75rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -834,6 +830,7 @@ video {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-underline-offset: 2px;
+  transition-duration: 300ms;
 }
 
 @media (min-width: 768px) {
@@ -851,6 +848,7 @@ video {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-underline-offset: 2px;
+  transition-duration: 300ms;
 }
 
 section {

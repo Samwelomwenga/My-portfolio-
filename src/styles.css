@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .heading{
-@apply text-primary-dark-green text-xl font-bold md:font-semibold mb-8 md:text-3xl scroll-mt-24 hover:underline hover:underline-offset-2 hover:scale-105;
+@apply text-primary-dark-green text-xl font-bold md:font-semibold mb-8 md:text-3xl scroll-mt-24 hover:underline hover:underline-offset-2 hover:scale-105 hover:duration-300;
 }
 .nav-link{
-    @apply hover:underline hover:underline-offset-2 hover:scale-105;
+    @apply hover:underline hover:underline-offset-2 hover:scale-105 hover:duration-300;
 }
 section{
     @apply text-center mb-12;
