@@ -18,7 +18,7 @@ section{
     @apply text-primary-dark-green font-semibold text-xl;
 }
 .live-preview-link{
-    @apply block text-primary-light-blue  text-xl py-1 hover:underline underline-offset-2 duration-500;
+    @apply block text-primary-light-blue  text-xl py-1  hover:underline underline-offset-2 duration-500;
 }
 .github-link{
     @apply  hover:underline underline-offset-2;
