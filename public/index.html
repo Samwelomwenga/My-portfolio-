@@ -8,27 +8,32 @@
     <title>SAMWEL OMWENGA PORTFOLIO</title>
 </head>
 <body class="text-neutral-dark-green py-7 bg-gray-200">
-        <nav class="bg-neutral-white flex place-content-between align-middle px-8 py-4 mb-16 md:pr-32 sticky top-0 left-0 z-10">
-            <p class="text-2xl md:text-3xl font-semibold mb-4 text-primary-dark-green"><a href="">SO</a></p>
-             <ul class="hidden   text-primary-dark-green font-semibold text-xl md:flex md:gap-x-12 ">
-                 <li class="nav-link"><a href="#ABOUT ME">ABOUT ME</a> </li>
-                 <li class="nav-link"><a href="#MY SKILLS">MY SKILLS</a></li>
-                 <li class="nav-link"><a href="#MY RECENT PROJECTS">MY RECENT PROJECTS</a></li>
-                 <li class="nav-link"><a href="#GET INTOUCH WITH ME">GET INTOUCH WITH ME</a></li>
-             </ul>
-             <button id="burger-menu" class="md:hidden">
+        <nav class="sticky top-0 left-0 bg-neutral-white flex justify-between items-start md:py-6 md:mb-20">
+           <div class="pl-6 md:flex md:justify-between md:w-full">
+            <p class="  text-2xl md:text-3xl font-semibold mb-4 text-primary-dark-green"><a href="">SO</a></p>
+            <ul class=" text-primary-dark-green font-semibold text-xl md:flex md:gap-14 md:mr-16">
+                <li class="nav-link"><a href="#ABOUT ME">ABOUT ME</a> </li>
+                <li class="nav-link"><a href="#MY SKILLS">MY SKILLS</a></li>
+                <li class="nav-link"><a href="#MY RECENT PROJECTS">MY RECENT PROJECTS</a></li>
+                <li class="nav-link"><a href="#GET INTOUCH WITH ME">GET INTOUCH WITH ME</a></li>
+            </ul>
+           </div>
+             <button id="burger-menu" class="block pr-3 md:hidden">
                  <svg class="" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/></svg>
              </button>
          </nav> 
-    <section class="mx-10 rounded-xl shadow-2xl md:mx-32">
+    <section class="mx-10 rounded-xl shadow-2xl md:mx-48">
         <h1 id="ABOUT ME" class="heading"><a href="#ABOUT ME">ABOUT ME</a></h1>
            <div class="mb-5 md:text-left  md:mx-10">
             <p class="mb-2">HELLO THERE, I`M  <span class="font-semibold">SAMWEL OMWENGA</span></p>
             <p class="font-semibold text-lg">SOFTWARE DEVELOPER</p>
             <p class="font-semibold text-lg">QA ENGINER</p>
-            <p class="font-semibold ">TECHNICAL WRITTTER</p>
+            <p class="font-semibold ">TECHNICAL WRITTER</p>
            </div>
-        <p class="px-6 pb-6"></p>
+        <div class="px-6 pb-6 md:text-left">
+            <p >I write about and develop responsive and sematic website using mobile first approach to solve problems and provide elegant,innovative and accessiible solution.I`m enthusiastic about  learning new and exicting technologies driven to find ways how tech can be improved</p>
+        <p class="pt-1">I am a team player with great communication,organization and intergration skills which increase productivty to the team and value to the project.</p>
+        </div>
     </section>
     <section class="md:mx-32">
         <h2 id="MY SKILLS" class="heading"><a href="#MY SKILLS">MY SKILLS</a></h2>
@@ -115,7 +120,7 @@
                 <label class="field-label" for="message">MESSAGE</label>
                 <textarea  class="input-field mt-2 pt-2 pl-2" name="message" id="message" cols="60" rows="10" placeholder="Enter Your Message " required></textarea>
                </div>
-                <input class="bg-primary-dark-green cursor-pointer hover:text-2xl py-1 w-full text-xl uppercase rounded-md hover:text-primary-dark-green hover:bg-neutral-dark-green" type="submit" value="submit" id="submit-btn">
+                <input class="bg-primary-dark-green cursor-pointer hover:text-2xl py-1 w-full md:w-2/4 md:mx-auto text-xl uppercase rounded-md hover:text-primary-dark-green hover:bg-neutral-dark-green" type="submit" value="submit" id="submit-btn">
             </form>
     </section>
     <div class="grid gap-12 fixed bottom-1/2 right-1 md:right-4">

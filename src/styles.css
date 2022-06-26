@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .heading{
-@apply text-primary-dark-green text-xl font-bold md:font-semibold mb-8 md:text-3xl scroll-mt-24 hover:underline hover:underline-offset-2 hover:scale-105 hover:duration-300;
+@apply text-primary-dark-green text-xl font-bold md:font-semibold mb-8 md:text-3xl scroll-mt-44 md:scroll-mt-28 hover:underline hover:underline-offset-2 hover:scale-105 hover:duration-300;
 }
 .nav-link{
     @apply hover:underline hover:underline-offset-2 hover:scale-105 hover:duration-300;
@@ -24,7 +24,7 @@ section{
     @apply  hover:underline underline-offset-2;
 }
 .input-field{
-    @apply border-2 border-solid border-neutral-dark-green  w-full rounded-md ;
+    @apply border-2 border-solid border-neutral-dark-green  w-full rounded-md focus:border-primary-light-blue;
 }
 .field-label{
     @apply text-neutral-dark-green  after:content-['*'];
