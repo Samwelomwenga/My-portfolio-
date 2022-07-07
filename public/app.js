@@ -1,15 +1,17 @@
-const burger=document.querySelector("#burger-menu");
-const ul=document.querySelector("nav ul");
-const nav=document.querySelector("nav");
-
-burger.addEventListener("click", ()=>{
-    ul.classList.toggle("show");
+const primarynav=document.querySelector('.primary-navigation');
+const navtoggle=document.querySelector('.mobile-nav-toggle');
+navtoggle.addEventListener('click', ()=>{
+    const visibility= primarynav.getAttribute('data-visible');
+    if(visibility==="false"){
+        primarynav.setAttribute("data-visible",true);
+    }else(visibility==="true");{
+        primarynav.setAttribute("data-visible",false);
+    } 
+    console.log(visibility);
 });
 
-const navLink=document.querySelectorAll(".nav-link");
-navLink.forEach((link)=>link.addEventListener("click", ()=>{
-    ul.classList.remove("show");
-}));
+
+
 
 const scrollUp=document.querySelector("#scrollToTop");
 scrollUp.addEventListener("click", ()=>{

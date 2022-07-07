@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="public/styles.css">
     <title>SAMWEL OMWENGA PORTFOLIO</title>
 </head>
 <body class="text-neutral-dark-green py-7 bg-gray-200">
-        <nav class="sticky top-0 left-0 bg-neutral-white flex justify-between items-start md:py-6 md:mb-20">
+        <nav class="sticky top-0 left-0 bg-neutral-white flex justify-between items-start py-2 md:py-6 mb-10 md:mb-20 overflow-x-hidden">
            <div class="pl-6 md:flex md:justify-between md:w-full">
             <p class="  text-2xl md:text-3xl font-semibold mb-4 text-primary-dark-green"><a href="">SO</a></p>
-            <ul class=" text-primary-dark-green font-semibold text-xl md:flex md:gap-14 md:mr-16">
+            <ul id="primary-navigation" data-visible="false" class=" text-primary-dark-green font-semibold text-xl -translate-x-full md:translate-x-0 md:tr md:flex md:gap-14 md:mr-16">
                 <li class="nav-link"><a href="#ABOUT ME">ABOUT ME</a> </li>
                 <li class="nav-link"><a href="#MY SKILLS">MY SKILLS</a></li>
                 <li class="nav-link"><a href="#MY RECENT PROJECTS">MY RECENT PROJECTS</a></li>
                 <li class="nav-link"><a href="#GET INTOUCH WITH ME">GET INTOUCH WITH ME</a></li>
             </ul>
            </div>
-             <button id="burger-menu" class="block pr-3 md:hidden">
-                 <svg class="" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/></svg>
+             <button aria-controls="primary-navigation" aria-expanded="false" id="burger-menu" class="mobile-nav-toggle block pr-3  absolute w-8 bg-cover bg-no-repeat aspect-square top-4 right-4 z-50 bg-[url('../assests/hamburger.svg')] md:hidden">
+                
              </button>
          </nav> 
     <section class="mx-10 rounded-xl shadow-2xl md:mx-48">
@@ -60,48 +60,48 @@
         <div class="project-card">
             <img src="../assests\clip board-desktop-preview.jpg" alt="clip board-desktop-preview" loading="lazy">
             <p class="project-heading">CLIP BOARD LANDING PAGE </p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="https://samwelomwenga.github.io/clipboard-landing-page/" target="_blank">Live Preview</a>
+            <a class="github-link" href="https://github.com/Samwelomwenga/clipboard-landing-page" target="_blank">Git hub repo</a>
         </div>
         <div class="project-card">
         <a href=""><img src="../assests\testimonial-grid-desktop-preview.jpg" alt="testimonial-grid-desktop-preview"loading="lazy"></a>
             <p class="project-heading">TESTIMONIAL GRID SECTION</p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a  class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="https://samwelomwenga.github.io/testimonials-grid-section-component-/" target="_blank">Live Preview</a>
+            <a  class="github-link" href="https://github.com/Samwelomwenga/testimonials-grid-section-component-" target="_blank">Git hub repo</a>
         </div>
 
         <div class="project-card" >
             <a href=""><img src="../assests\flyo-landing-page-desktop-preview.jpg" alt="flyo-landing-page-desktop-preview"loading="lazy"></a> 
             <p class="project-heading">FLYO LANDING PAGE</p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a  class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="" target="_blank">Live Preview</a>
+            <a  class="github-link" href="" target="_blank">Git hub repo</a>
         </div>
 
         <div class="project-card">
             <a href=""><img src="../assests\stats-preview-card-desktop-preview.jpg" alt="stats-preview-card-desktop-preview"loading="lazy"></a>
             <p class="project-heading">STATS PREVIEW CARD</p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a  class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="" target="_blank">Live Preview</a>
+            <a  class="github-link" href="" target="_blank">Git hub repo</a>
         </div>
 
         <div class="project-card" >
             <a href=""><img src="../assests\nft-preview-card-desktop-preview.jpg" alt="nft-preview-card-desktop-preview"loading="lazy"></a>
             <p class="project-heading">NFT PREVIEW CARD</p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a  class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="https://samwelomwenga.github.io/nft-preview-card-component-/" target="_blank">Live Preview</a>
+            <a  class="github-link" href="https://github.com/Samwelomwenga/nft-preview-card-component-" target="_blank">Git hub repo</a>
         </div>
 
         <div class="project-card">
             <a href=""><img src="../assests\four-card-feature-section-desktop-preview.jpg" alt="four-card-feature-section-desktop-preview"loading="lazy"></a>
             <p class="project-heading">FOUR CARD FEATURE SECTION</p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a  class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="https://samwelomwenga.github.io/four-card-feature-section-/" target="_blank">Live Preview</a>
+            <a  class="github-link" href="https://github.com/Samwelomwenga/four-card-feature-section-" target="_blank">Git hub repo</a>
         </div>
         <div class="project-card" >
             <a href=""><img src="../assests\3-column-desktop-preview.jpg" alt="3-column-desktop-preview"loading="lazy"></a>
             <p class="project-heading">3-COLUMN PREVIEW CARD</p>
-            <a class="live-preview-link" href="">Live Preview</a>
-            <a  class="github-link" href="">Git hub repo</a>
+            <a class="live-preview-link" href="" target="_blank">Live Preview</a>
+            <a  class="github-link" href="" target="_blank">Git hub repo</a>
         </div>
     </div>
     </section>

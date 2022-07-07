@@ -8,6 +8,9 @@
 .nav-link{
     @apply hover:underline hover:underline-offset-2 hover:scale-105 hover:duration-300;
 }
+[data-visible="true"]{
+    @apply translate-x-0;
+}
 section{
     @apply text-center mb-12;
 }
