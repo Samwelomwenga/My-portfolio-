@@ -1,3 +1,5 @@
+// start  of hamberger menu code
+
 const primarynav=document.querySelector('.primary-navigation');
 const navtoggle=document.querySelector('.mobile-nav-toggle');
 navtoggle.addEventListener('click', ()=>{
@@ -9,7 +11,7 @@ navtoggle.addEventListener('click', ()=>{
     } 
     console.log(visibility);
 });
-
+// End of hamberger menu code
 
 
 
