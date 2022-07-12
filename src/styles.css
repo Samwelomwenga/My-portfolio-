@@ -12,6 +12,9 @@
 [data-visible="true"]{
     @apply translate-x-0;
 }
+.mobile-nav-toggle[aria-expanded="false"]{
+@apply bg-[url('../assests\icon-close.svg')];
+}
 section{
     @apply text-center mb-12;
 }

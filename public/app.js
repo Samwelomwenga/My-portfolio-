@@ -1,16 +1,20 @@
 // start  of hamberger menu code
 
-const primarynav=document.querySelector('.primary-navigation');
-const navtoggle=document.querySelector('.mobile-nav-toggle');
-navtoggle.addEventListener('click', ()=>{
-    const visibility= primarynav.getAttribute('data-visible');
+const primarynav=document.querySelector("#primary-navigation");
+const navtoggle=document.querySelector(".mobile-nav-toggle");
+
+navtoggle.addEventListener("click", ()=>{
+    const visibility= primarynav.getAttribute("data-visible")
     if(visibility==="false"){
         primarynav.setAttribute("data-visible",true);
-    }else(visibility==="true");{
+        navtoggle.setAttribute("aria-expanded",true);
+    }else(visibility==="true") {
         primarynav.setAttribute("data-visible",false);
+        navtoggle.setAttribute("aria-expanded",false);
+
     } 
-    console.log(visibility);
 });
+
 // End of hamberger menu code
 
 
