@@ -8,12 +8,17 @@ navtoggle.addEventListener("click", ()=>{
     if(visibility==="false"){
         primarynav.setAttribute("data-visible",true);
         navtoggle.setAttribute("aria-expanded",true);
-    }else(visibility==="true") {
+    }else if(visibility==="true") {
+        primarynav.setAttribute("data-visible",false);
+        navtoggle.setAttribute("aria-expanded",false);
+    } 
+    });
+    document.querySelectorAll(".nav-link").forEach( n=>n.addEventListener("click",()=>{
         primarynav.setAttribute("data-visible",false);
         navtoggle.setAttribute("aria-expanded",false);
 
-    } 
-});
+
+    }))
 
 // End of hamberger menu code
 

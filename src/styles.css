@@ -10,10 +10,10 @@
 }
 /* navigation list data-visible true  */
 [data-visible="true"]{
-    @apply translate-x-0;
+    @apply block ease-in-out  duration-1000 ;
 }
-.mobile-nav-toggle[aria-expanded="false"]{
-@apply bg-[url('../assests\icon-close.svg')];
+.mobile-nav-toggle[aria-expanded="true"]{
+@apply bg-[url('../assests/icon-close.svg')];
 }
 section{
     @apply text-center mb-12;
